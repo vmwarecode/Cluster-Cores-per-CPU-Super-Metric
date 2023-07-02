@@ -1,0 +1,12 @@
+{"5f19b229-2924-4aef-8189-371ae04d9edc": {
+   "resourceKinds": [{
+      "resourceKindKey": "ClusterComputeResource",
+      "adapterKindKey": "VMWARE"
+   }],
+   "modificationTime": 1688336053305,
+   "name": "Cluster Cores per CPU",
+   "formula": "${this, metric=cpu|corecount_provisioned} / ${this, metric=cpu|numpackages} ",
+   "description": "Cluster Cores per CPU",
+   "unitId": "",
+   "modifiedBy": "287ed085-c6ca-4255-b69c-956f1665ed51"
+}}
